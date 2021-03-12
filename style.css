@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#display {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 2.25rem;
+}
+
+.btns {
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+  background-color: #236bde;
+}
+
+.btn:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
